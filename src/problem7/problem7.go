@@ -19,7 +19,7 @@ const (
 	imm valueMode = 1
 )
 
-//Run the problem
+// Run ...
 func Run() {
 	text := readInput()
 	stringArr := strings.Split(text, ",")
@@ -55,13 +55,13 @@ func processSequenceWithFeedback(data *[]int, phases seq, seqID int) int {
 	in := make(chan int, 1)
 	in <- 0
 
-	// pipe the amplifiers together
+	// pipe the amplifiers
 	out := in
 	for _, phase := range phases {
 		out = processPhase(arrays.CopyIntArr(data), phase, out, seqID)
 	}
 
-	// pipe the output of the last amplifier back into the input
+	// pipe the output of the last amplifier back into the input of the first one
 	var output int
 	for output = range out {
 		in <- output

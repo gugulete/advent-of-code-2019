@@ -7,7 +7,7 @@ import (
 	"strconv"
 )
 
-//Run ...
+// Run ...
 func Run() {
 	path := "./input.txt"
 

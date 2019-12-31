@@ -1,7 +1,7 @@
 package main
 
-import "problem7"
+import "problem8"
 
 func main() {
-	problem7.Run()
+	problem8.Run()
 }

@@ -15,7 +15,7 @@ type treeNode struct {
 	orbits     int
 }
 
-//Run the problem
+// Run ...
 func Run() {
 	t := make(map[string]*treeNode)
 	reader, _ := readInput()

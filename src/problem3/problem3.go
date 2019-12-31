@@ -13,7 +13,7 @@ type input struct {
 	positions int
 }
 
-//Run ...
+// Run ...
 func Run() {
 	a, b := readInput()
 

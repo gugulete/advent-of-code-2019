@@ -4,7 +4,7 @@ import (
 	"math"
 )
 
-//Run ...
+// Run ...
 func Run() {
 	min := 136888
 	max := 685979

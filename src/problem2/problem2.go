@@ -14,7 +14,7 @@ type input struct {
 	verb int
 }
 
-//Run ...
+// Run ...
 func Run() {
 	text := readInput()
 	stringArr := strings.Split(text, ",")

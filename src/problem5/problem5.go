@@ -20,7 +20,7 @@ type param struct {
 	mode  valueMode
 }
 
-//Run the problem
+// Run ...
 func Run() {
 	text := readInput()
 	stringArr := strings.Split(text, ",")
